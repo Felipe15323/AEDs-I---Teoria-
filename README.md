@@ -1,6 +1,6 @@
 # 📚 AEDs I - Teoria (Algoritmos e Estruturas de Dados I)
 
-Este repositório contém materiais da disciplina **Algoritmos e Estruturas de Dados I**, cursada na UNIFAL-MG. Aqui você encontrará códigos de exemplo, anotações teóricas e implementações em **C++**.
+Este repositório contém materiais da disciplina **Algoritmos e Estruturas de Dados I**, cursada na UNIFAL-MG. Aqui você encontrará anotações teóricas e implementações em **C++**.
 
 ---
 
@@ -25,24 +25,15 @@ Este repositório contém materiais da disciplina **Algoritmos e Estruturas de D
 
 > *Disciplina cursada em Ciência da Computação - UNIFAL-MG*
 
-Exemplo de código
+# 🧠 Resumo Teórico - AEDs I
 
-#include <iostream>
-using namespace std;
+## Algoritmos de Busca
 
-int buscaLinear(int vetor[], int tamanho, int chave) {
-    for (int i = 0; i < tamanho; i++) {
-        if (vetor[i] == chave) return i;
-    }
-    return -1;
-}
+- **Busca Linear**: Percorre todos os elementos até encontrar (ou não) o valor desejado.
+- **Busca Binária**: Requer vetor ordenado; divide o vetor ao meio e compara.
 
-int main() {
-    int v[] = {10, 20, 30, 40, 50};
-    int pos = buscaLinear(v, 5, 30);
-    if (pos != -1)
-        cout << "Elemento encontrado na posição: " << pos << endl;
-    else
-        cout << "Elemento não encontrado." << endl;
-    return 0;
-}
+## Estruturas de Dados
+
+- **Pilha (Stack)**: LIFO - Último a entrar, primeiro a sair
+- **Fila (Queue)**: FIFO - Primeiro a entrar, primeiro a sair
+- **Lista Encadeada**: Estrutura dinâmica de nós conectados por ponteiros
